@@ -1,0 +1,41 @@
+.me {
+  opacity: .95;
+  height: 500px;
+  /* border: 10px red solid; */
+}
+html {
+background-image: linear-gradient(to right, #000000, #353434, #000000);
+background-size:auto;
+color: blanchedalmond;
+padding: 15px;
+margin: 10px;
+font-size: 20px;
+
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-title {
+  /* border: 10px red solid; */
+  text-align: center;
+  padding-top: 50px;
+}
+
+.skills-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 10px red solid */
+}
+
+.skills {
+  min-width: 400px;
+  /* border: 10px red solid; */
+  padding: 10px;
+  margin: 10px;
+}
+
