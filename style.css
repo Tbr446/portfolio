@@ -19,6 +19,12 @@ letter-spacing: .03rem;
 line-height: 1.5rem;
 
 }
+
+input,
+textarea {
+  background-color: rgb(39, 39, 39, 0);
+  color: rgb(185, 184, 197);
+}
 ul {
   list-style: none;
 }
@@ -174,9 +180,7 @@ font-size: 22px;
   min-width: 50%;
 }
 
-.skills-title {
-  justify-self: center;
-}
+
 
 .row {
   background-color: ;
@@ -262,4 +266,33 @@ font-size: 22px;
   color: rgba(3, 102, 214);
 
 
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid red; */
+  flex-wrap: wrap;
+  min-width: 390px;
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  padding: 20px;
+
+  margin: 20px;
+}
+
+.skills-title {
+  font-size: 30px;
+  letter-spacing: 10px;
+  /* border: 1px solid red; */
+  height: fit-content;
+
+
+}
+
+
+#warn {
+  color: red;
 }
