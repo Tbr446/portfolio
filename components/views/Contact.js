@@ -1,8 +1,11 @@
 import html from "html-literal";
 
 export default st => html`
-  <section id="contact">
+  <section class="contact">
     <div class="exp">
+      <h2>Reach out to me!</h2>
+      <div class="contact-form">
+        <h3>Email directly:</h3>
       <form action="https://formspree.io/f/mjvlygqo" method="POST">
         <label>
           Your email:
@@ -18,6 +21,24 @@ export default st => html`
         </label>
         <button type="submit">Send</button>
       </form>
+    </div>
+    <div class="social">
+    <h3><a
+        href="https://www.linkedin.com/in/buck-randall-b269a31bb/"
+        target="_blank"
+        class="navlink"
+        >Connect with me on LinkedIn</a
+      >
+      </h3>
+    </div>
+    <div class="other-contact">
+
+      <i class="fas fa-envelope fa-2x"></i>
+      <p> tbr446@gmail.com</p>
+      <i class="fas fa-phone fa-2x"></i>
+      <p> 314-882-2110</p>
+
+
     </div>
 
     <!-- MAILTO FORM EXAMPLE BELOW -->

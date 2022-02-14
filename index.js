@@ -3,8 +3,6 @@ import * as state from "./store";
 import axios from "axios";
 import Navigo from "navigo";
 import { capitalize } from "lodash";
-import dotenv from "dotenv";
-// dotenv.config();
 
 const router = new Navigo(window.location.origin);
 console.log(window.location.origin);
@@ -71,7 +69,7 @@ router.hooks({
 //ADD ROUTER HERE ...
 router
   .on({
-    "/": () => render(state.Home),
-    ":page": params => render(state[capitalize(params.page)])
+    "/": () => render(state.Me),
+    ":view": params => render(state[capitalize(params.view)])
   })
   .resolve();
