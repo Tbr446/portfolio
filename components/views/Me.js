@@ -74,23 +74,23 @@ export default () => html`
             </tr>
             <tr class="row">
               <td>Node</td>
-              <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></td>
+              <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></td>
             </tr>
             <tr class="row">
               <td>Express</td>
-              <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></td>
+              <td><i class="fas fa-star"></i><i class="fas fa-star"></i>
             </tr>
             <tr class="row">
               <td>MongoDB</td>
-              <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></td>
+              <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></td>
             </tr>
             <tr class="row">
               <td>Axios</td>
-              <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></td>
+              <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></td>
             </tr>
             <tr class="row">
               <td>Navigo</td>
-              <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></td>
+              <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></td>
             </tr>
             <tr class="row">
               <td>HTTP RESTful API’s</td>
@@ -117,7 +117,7 @@ export default () => html`
             </tr>
             <tr class="row">
               <td>Git</td>
-              <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></td>
+              <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></td>
             </tr>
             <tr class="row">
               <td>UI/UX</td>
@@ -129,11 +129,11 @@ export default () => html`
             </tr>
             <tr class="row">
               <td>Agile</td>
-              <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></td>
+              <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"><i class="fas fa-star-half"></i></td>
             </tr>
             <tr class="row">
               <td>OOP</td>
-              <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></td>
+              <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"><i class="fas fa-star-half"></i></td>
             </tr>
             <tr class="row">
               <td>SPA’s</td>
@@ -144,7 +144,7 @@ export default () => html`
               <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></td>
             </tr>
             <tr class="row">
-              <td>Deploying to Netlify and Heroku</td>
+              <td>Deploying to Netlify</td>
               <td><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></td>
             </tr>
           </table>
