@@ -3,7 +3,7 @@ import cc from "../../assets/cc/home.jpg";
 
 export default () => html`
   <section id="me">
-    <h2>A few of the things I've made..</h2>
+    <h2>A few of the things I've made...</h2>
     <section id="meFluff">
       <div class="projects-container">
         <div class="projects">

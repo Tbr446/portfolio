@@ -7,11 +7,10 @@ export default st => html`
     <div class="homeFluff home">
       <h1>Thanks for checking out my site! (A permanent WIP)</h1>
       <p>
-        I'm an aspiring junior software engineer and this is where I will update
-        my progress along the way. I'm a recent graduate of a full stack
-        software development bootcamp called SavvvyCoders. With experience as a
-        teammate and team leader, and a passion for learning, I am ready to hit
-        the ground running as a new engineer.
+        In January of 2022, I graduated from a full stack software development
+        bootcamp called SavvyCoders. I am now an aspiring junior software
+        engineer and this site is where I will showcase the things that I learn
+        and the projects that I build along the way.
       </p>
 
       <p>
