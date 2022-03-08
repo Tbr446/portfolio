@@ -281,6 +281,11 @@ transition: all .5s ease-in-out;
 
 }
 
+.more {
+  width: 100%;
+  text-align: center;
+}
+
 
 
 
